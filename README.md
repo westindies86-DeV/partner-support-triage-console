@@ -10,42 +10,37 @@
 
 ### How To Use (Step-by-Step)
 
-1. Pick a Ticket (Left Inbox)
-   - Click TK-1024, TK-1025, TK-1026, or TK-1027
-   - Center panel shows details + message
+1 Pick a Ticket
+Click a ticket on the left. TK1024 bonus, TK1025 eligibility, TK1026 fulfillment, TK1027 sync.
 
-2. Check The Rules (Center - SAMPLE_RULES.json)
-   - This is editable! Click inside and change JSON
-   - Try changing min_premium_for_bonus to $5000
-   - Header shows start → end · min $X
+2 Check The Rules
+Center has SAMPLE_RULES.json. It is editable. Change values and test.
 
-3. Run Diagnostic Checks (Right Panel)
-   - Check Eligibility: 6 real PASS/FAIL checks
-   - Check Payment: File ID PAY-8821-1024
-   - Check Fulfillment: Vendor WH2 status
-   - Check Data Sync: EDI job 9912 debug
+3 Run Checks
+Right panel has 4 buttons.
+Check Eligibility runs 6 PASS FAIL checks.
+Check Payment shows File ID PAY88211024.
+Check Fulfillment shows Vendor WH2 status.
+Check Data Sync shows EDI job 9912 debug.
 
-4. Work The Ticket Like L2 Support
-   - Type internal note → Add Note (ET-stamped) or Save Draft
-   - Check IT/Data/Vendor → Escalate
-   - Click Resolve → ticket closes
-   - Everything logs to bottom Audit Trail with ET timestamps
+4 Work The Ticket
+Type note then Add Note or Save Draft.
+Check IT Data Vendor then Escalate.
+Click Resolve to close ticket.
+All actions go to Audit Trail at bottom.
 
-5. Test Features
-   - Change agent name top-right (Dev Fred B)
-   - Edit rules to make tickets fail, then re-check
-   - Refresh page — notes persist (localStorage)
+5 Test Features
+Change agent name top right.
+Edit rules to make ticket fail.
+Refresh page notes stay because localStorage.
 
-6. Audit Trail (Bottom)
-   - Every action logged: ET time, ticket ID, action, agent
-
-### What Makes It Premium
-- Live Eastern clock (America/New_York)
-- ET timestamps: MM/DD/YYYY, h:mm:ss PM ET
-- SLA 4h, queue counter, toasts, Geist fonts
-- Single file — no build needed
+Features
+Live Eastern clock America/New_York
+ET timestamps MM/DD/YYYY h:mm:ss PM ET
+SLA badge queue counter toasts
+Single file app no build needed
 
 Built for Aquent Ops Support Specialist.
-Local simulation — no real emails sent.
+Local simulation no real emails sent.
 
-© 2026 Dev Fred B
+2026 Dev Fred B
